@@ -1,0 +1,39 @@
+
+@font-face {
+     font-family: Klavika Bold;
+     src: url('assets/fonts/klavika-bold.otf');
+}
+@font-face {
+     font-family: Klavika;
+     src: url('assets/fonts/klavika.otf');
+}
+
+
+.font{
+  font-family: Klavika Bold !important;
+}
+
+
+button.btn.btn-block.btn-lg.my-1.btn-danger.font.ajustafont {
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+
+.bg{
+	background-image: url(assets/img/BG.png);
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+                                              
+@media only screen and (max-width: 800px) {     /*MOBILE*/
+
+.bg{
+	background-position: 48% 16%;
+}
+
+}
